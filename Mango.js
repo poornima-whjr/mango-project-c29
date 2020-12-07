@@ -1,7 +1,7 @@
 class Mango{
     constructor(x,y){
         var options={
-            restitution : 0,
+            restitution : 0.3,
             friction : 1,
             isStatic : true
         }

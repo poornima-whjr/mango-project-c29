@@ -49,7 +49,7 @@ function setup() {
 	  });
   
 	  Engine.run(engine);
-	 // Render.run(render);
+	 //Render.run(render);
 }
 
 
@@ -59,6 +59,7 @@ function draw() {
 	imageMode(CENTER);
 	image(treeImage,800,350,300,500);
 	image(boyImage,200,530,100,200);
+	
 	mango1.display();
 	mango2.display();
 	mango3.display();
@@ -69,7 +70,8 @@ function draw() {
 	mango8.display();
 	stone.display();
 	sling.display();
-	ground.display();
+	
+
 	detectCollision(mango1,stone);
 	detectCollision(mango2,stone);
 	detectCollision(mango3,stone);
